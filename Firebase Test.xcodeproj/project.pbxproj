@@ -3,25 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ABF5BF485DDECE0B700A17B /* Pods_Firebase_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A79997F0BEAED384AFA49F3 /* Pods_Firebase_Test.framework */; };
+		7B3F995E2189C2F0006FC718 /* Xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F995D2189C2F0006FC718 /* Xcode.gitignore */; };
+		7B3F99622189C9D9006FC718 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F99612189C9D8006FC718 /* R.generated.swift */; };
+		7B8956FE21886538009E1986 /* LoadingInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8956F321886537009E1986 /* LoadingInfo.storyboard */; };
+		7B8956FF21886538009E1986 /* LoadingInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956F421886537009E1986 /* LoadingInfoController.swift */; };
+		7B89570121886538009E1986 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956F721886537009E1986 /* LoginController.swift */; };
+		7B89570221886538009E1986 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956F821886537009E1986 /* SignUpController.swift */; };
+		7B89570321886538009E1986 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8956F921886537009E1986 /* Login.storyboard */; };
+		7B89570421886538009E1986 /* GeneralUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956FA21886537009E1986 /* GeneralUtils.swift */; };
+		7B89570521886538009E1986 /* RealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956FB21886538009E1986 /* RealmUtils.swift */; };
+		7B89570621886538009E1986 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956FC21886538009E1986 /* NetworkManager.swift */; };
+		7B89570721886538009E1986 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8956FD21886538009E1986 /* Extensions.swift */; };
+		7B89570A21886575009E1986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B89570821886575009E1986 /* Main.storyboard */; };
+		7B89570B21886575009E1986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89570921886575009E1986 /* ViewController.swift */; };
+		7B89570D2188658C009E1986 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B89570F2188658C009E1986 /* Localizable.strings */; };
+		7B8957142188B653009E1986 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8957132188B653009E1986 /* User.swift */; };
 		7BEBB2C9218860AD005D7D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBB2C8218860AD005D7D5C /* AppDelegate.swift */; };
-		7BEBB2CB218860AD005D7D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBB2CA218860AD005D7D5C /* ViewController.swift */; };
-		7BEBB2CE218860AD005D7D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBB2CC218860AD005D7D5C /* Main.storyboard */; };
 		7BEBB2D0218860AE005D7D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBB2CF218860AE005D7D5C /* Assets.xcassets */; };
 		7BEBB2D3218860AE005D7D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBB2D1218860AE005D7D5C /* LaunchScreen.storyboard */; };
+		7BEBB2DB21886102005D7D5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BEBB2DA21886102005D7D5C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBBCC9AA5B2FA6016DAF504 /* Pods-Firebase Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Test/Pods-Firebase Test.release.xcconfig"; sourceTree = "<group>"; };
+		482DB1B4D80A42DB41D0C402 /* Pods-Firebase Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Test/Pods-Firebase Test.debug.xcconfig"; sourceTree = "<group>"; };
+		7A79997F0BEAED384AFA49F3 /* Pods_Firebase_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3F995D2189C2F0006FC718 /* Xcode.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = Xcode.gitignore; sourceTree = "<group>"; };
+		7B3F99612189C9D8006FC718 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		7B8956F321886537009E1986 /* LoadingInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoadingInfo.storyboard; sourceTree = "<group>"; };
+		7B8956F421886537009E1986 /* LoadingInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingInfoController.swift; sourceTree = "<group>"; };
+		7B8956F721886537009E1986 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7B8956F821886537009E1986 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		7B8956F921886537009E1986 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7B8956FA21886537009E1986 /* GeneralUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralUtils.swift; sourceTree = "<group>"; };
+		7B8956FB21886538009E1986 /* RealmUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmUtils.swift; sourceTree = "<group>"; };
+		7B8956FC21886538009E1986 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7B8956FD21886538009E1986 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7B89570821886575009E1986 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7B89570921886575009E1986 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B89570E2188658C009E1986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B8957102188659B009E1986 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7B8957112188659C009E1986 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B8957132188B653009E1986 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7BEBB2C5218860AD005D7D5C /* Firebase Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEBB2C8218860AD005D7D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BEBB2CA218860AD005D7D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BEBB2CD218860AD005D7D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BEBB2CF218860AE005D7D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BEBB2D2218860AE005D7D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BEBB2D4218860AE005D7D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEBB2DA21886102005D7D5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABF5BF485DDECE0B700A17B /* Pods_Firebase_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B8956F221886537009E1986 /* LoadingInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7B8956F321886537009E1986 /* LoadingInfo.storyboard */,
+				7B8956F421886537009E1986 /* LoadingInfoController.swift */,
+			);
+			path = LoadingInfo;
+			sourceTree = "<group>";
+		};
+		7B8956F621886537009E1986 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				7B8956F721886537009E1986 /* LoginController.swift */,
+				7B8956F821886537009E1986 /* SignUpController.swift */,
+				7B8956F921886537009E1986 /* Login.storyboard */,
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		7B89570C21886580009E1986 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7B89570821886575009E1986 /* Main.storyboard */,
+				7B89570921886575009E1986 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7B8957122188B638009E1986 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B8957132188B653009E1986 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7BEBB2BC218860AC005D7D5C = {
 			isa = PBXGroup;
 			children = (
+				7B3F995D2189C2F0006FC718 /* Xcode.gitignore */,
 				7BEBB2C7218860AD005D7D5C /* Firebase Test */,
 				7BEBB2C6218860AD005D7D5C /* Products */,
+				8301B05B7D9B451F9AEA47B9 /* Pods */,
+				E789A452271603A04C0365C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +129,39 @@
 			isa = PBXGroup;
 			children = (
 				7BEBB2C8218860AD005D7D5C /* AppDelegate.swift */,
-				7BEBB2CA218860AD005D7D5C /* ViewController.swift */,
-				7BEBB2CC218860AD005D7D5C /* Main.storyboard */,
+				7B8956F221886537009E1986 /* LoadingInfo */,
+				7B8956F621886537009E1986 /* Access */,
+				7B89570C21886580009E1986 /* Main */,
+				7B8957122188B638009E1986 /* Models */,
+				7B8956FD21886538009E1986 /* Extensions.swift */,
+				7B8956FA21886537009E1986 /* GeneralUtils.swift */,
+				7B8956FC21886538009E1986 /* NetworkManager.swift */,
+				7B8956FB21886538009E1986 /* RealmUtils.swift */,
+				7B89570F2188658C009E1986 /* Localizable.strings */,
 				7BEBB2CF218860AE005D7D5C /* Assets.xcassets */,
 				7BEBB2D1218860AE005D7D5C /* LaunchScreen.storyboard */,
+				7B3F99612189C9D8006FC718 /* R.generated.swift */,
+				7BEBB2DA21886102005D7D5C /* GoogleService-Info.plist */,
 				7BEBB2D4218860AE005D7D5C /* Info.plist */,
 			);
 			path = "Firebase Test";
+			sourceTree = "<group>";
+		};
+		8301B05B7D9B451F9AEA47B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				482DB1B4D80A42DB41D0C402 /* Pods-Firebase Test.debug.xcconfig */,
+				1BBBCC9AA5B2FA6016DAF504 /* Pods-Firebase Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E789A452271603A04C0365C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A79997F0BEAED384AFA49F3 /* Pods_Firebase_Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BEBB2D7218860AE005D7D5C /* Build configuration list for PBXNativeTarget "Firebase Test" */;
 			buildPhases = (
+				945BCD200F046745E93E6F3D /* [CP] Check Pods Manifest.lock */,
+				7B3F9967218B650A006FC718 /* ShellScript */,
 				7BEBB2C1218860AD005D7D5C /* Sources */,
 				7BEBB2C2218860AD005D7D5C /* Frameworks */,
 				7BEBB2C3218860AD005D7D5C /* Resources */,
+				CBF05CE30D4500E04BDD8F32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,12 +203,13 @@
 				};
 			};
 			buildConfigurationList = 7BEBB2C0218860AC005D7D5C /* Build configuration list for PBXProject "Firebase Test" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 7BEBB2BC218860AC005D7D5C;
 			productRefGroup = 7BEBB2C6218860AD005D7D5C /* Products */;
@@ -122,39 +226,141 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3F995E2189C2F0006FC718 /* Xcode.gitignore in Resources */,
+				7B89570A21886575009E1986 /* Main.storyboard in Resources */,
 				7BEBB2D3218860AE005D7D5C /* LaunchScreen.storyboard in Resources */,
+				7B89570D2188658C009E1986 /* Localizable.strings in Resources */,
+				7B89570321886538009E1986 /* Login.storyboard in Resources */,
+				7BEBB2DB21886102005D7D5C /* GoogleService-Info.plist in Resources */,
 				7BEBB2D0218860AE005D7D5C /* Assets.xcassets in Resources */,
-				7BEBB2CE218860AD005D7D5C /* Main.storyboard in Resources */,
+				7B8956FE21886538009E1986 /* LoadingInfo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B3F9967218B650A006FC718 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\n";
+		};
+		945BCD200F046745E93E6F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF05CE30D4500E04BDD8F32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Test/Pods-Firebase Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Test/Pods-Firebase Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7BEBB2C1218860AD005D7D5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEBB2CB218860AD005D7D5C /* ViewController.swift in Sources */,
+				7B89570421886538009E1986 /* GeneralUtils.swift in Sources */,
+				7B89570721886538009E1986 /* Extensions.swift in Sources */,
+				7B89570221886538009E1986 /* SignUpController.swift in Sources */,
+				7B89570B21886575009E1986 /* ViewController.swift in Sources */,
+				7B89570121886538009E1986 /* LoginController.swift in Sources */,
+				7B89570621886538009E1986 /* NetworkManager.swift in Sources */,
 				7BEBB2C9218860AD005D7D5C /* AppDelegate.swift in Sources */,
+				7B8956FF21886538009E1986 /* LoadingInfoController.swift in Sources */,
+				7B8957142188B653009E1986 /* User.swift in Sources */,
+				7B3F99622189C9D9006FC718 /* R.generated.swift in Sources */,
+				7B89570521886538009E1986 /* RealmUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7BEBB2CC218860AD005D7D5C /* Main.storyboard */ = {
+		7B89570F2188658C009E1986 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7BEBB2CD218860AD005D7D5C /* Base */,
+				7B89570E2188658C009E1986 /* en */,
+				7B8957112188659C009E1986 /* it */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		7BEBB2D1218860AE005D7D5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7BEBB2D2218860AE005D7D5C /* Base */,
+				7B8957102188659B009E1986 /* it */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,6 +488,7 @@
 		};
 		7BEBB2D8218860AE005D7D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482DB1B4D80A42DB41D0C402 /* Pods-Firebase Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +501,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stefanovecchiati.Firebase-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7BEBB2D9218860AE005D7D5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBBCC9AA5B2FA6016DAF504 /* Pods-Firebase Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stefanovecchiati.Firebase-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
